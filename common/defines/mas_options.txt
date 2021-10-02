@@ -1,0 +1,6 @@
+# Modified by Trinity
+# Version: 2.0.0
+NGameplay = {
+	ASCENSION_PERKS_SLOTS				= 20 # Number of ascension perk slots
+	TRADITION_CATEGORIES_MAX			= 8 
+}

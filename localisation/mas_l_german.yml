@@ -1,0 +1,30 @@
+﻿# Modified by Trinity
+# Version: 2.0.0
+l_german:
+    tradition_ascension:0 "Pfad des Aufstiegs"
+    tradition_ascension_desc:0 "§WWähle mit Bedacht bevor du deine Bestimmung manifestierst. Denke daran, jeder Fortschritt hat seinen Preis."
+    tr_ascension_finish_effect:0 "§E$TRADITIONS_FINISH$:§W\nDie Annahme aller $tr_ascension_adopt$ gewährt dir Zugang zu allen Aufstiegsslots."
+
+    tr_ascension_adopt:0 "Pfad des Aufstiegs Traditionen"
+    tr_ascension_adopt_desc:0 "$tradition_ascension_desc$\n\n$tr_ascension_adopt_effect$\n\n$tr_ascension_adopt_finish_effect$"
+    tr_ascension_adopt_effect:0 "§E$TRADITIONS_ADOPT$:§!\n§HSchaltet folgende Forschungsoption frei: §M$tech_ascension_theory$§!"
+    tr_ascension_adopt_finish_effect:0 "§E$TRADITIONS_FINISH$:§W\nDie Annahme aller $tr_ascension_adopt$ gewährt dir Zugang zu allen Aufstiegsslots."
+    
+    tr_ascension_1:0 "Stärke des Einzelnen"
+    tr_ascension_1_desc:0 "Schaltet §Y1§! weiteren Aufstiegsslot frei.\n£unity£ §YUnity Produktion §!durch £job_administrator£ §YHerrscher Jobs §!um §G5% §!erhöht."
+    tr_ascension_1_delayed:0 "Jedes Individuum hat die potenzielle Kraft um ganze Sternensysteme zu erschaffen, oder so zu zerstören..."
+    tr_ascension_2:0 "Vereinigte Geister"
+    tr_ascension_2_desc:0 "Schaltet §Y1§! weiteren Aufstiegsslot frei.\n£stability£ §YStabilität §!um §G15% §!auf allen unserer Planeten erhöht."
+    tr_ascension_2_delayed:0 "Ein Imperium, eine Vision, ein Verstand. Unser Schicksal liegt in deinen Händen. Wähle mit Bedacht."
+    tr_ascension_3:0 "Antike Studien"
+    tr_ascension_3_desc:0 "Schaltet §Y1§! weiteren Aufstiegsslot frei.\n§G100 §Y£minor_artifacts£ Kleinere Artefakte §Wwerden deinem Lagerbestand hinzugefügt."
+    tr_ascension_3_delayed:0 "Die Vergangenheit zu verstehen ist essentiell wenn wir nicht dieselben Fehler machen wollen."
+    tr_ascension_4:0 "Der Dunkle Kult"
+    tr_ascension_4_desc:0 "Schaltet §Y1§! weiteren Aufstiegsslot frei.\n§YErlass-Kapazität §!um §G1 §!erhöht.\n§YErlass-Kosten §!um §G10%§! reduziert."
+    tr_ascension_4_delayed:0 "Ni vekigu la lordon de la abismo! Aligxu al ni."
+    tr_ascension_4_hive:0 "Gestärkte Neurale Netzwerke"
+    tr_ascension_4_hive_desc:0 "Schaltet §Y1§! weiteren Aufstiegsslot frei.\n£army_power£ §YArmee-Schaden §!um §G10% §!erhöht.\n§YReichsausbreitung §!um §G5% §!reduziert."
+    tr_ascension_4_hive_delayed:0 "Einigkeit macht Stark."
+    tr_ascension_5:0 "Das Allsehende Auge"
+    tr_ascension_5_desc:0 "Schaltet §Y1§! weiteren Aufstiegsslot frei.\n§YEntschlüsselung: §G+1§!\n§YBasis Geheiminformationen: §G+5§!"
+    tr_ascension_5_delayed:0 "Es ist immer von Vorteil zu wissen, was gerade die Nachbarn machen."

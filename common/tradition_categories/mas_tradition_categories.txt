@@ -1,0 +1,22 @@
+# Modified by Trinity
+# Version: 1.0.2
+tradition_ascension = {
+	tree_template = "tree_11_12_21"
+	adoption_bonus = "tr_ascension_adopt"
+	finish_bonus = "tr_ascension_finish"
+	traditions = {
+		"tr_ascension_1"
+		"tr_ascension_2"
+		"tr_ascension_3"
+		"tr_ascension_4"
+		"tr_ascension_5"
+	}
+
+	potential = {
+		num_tradition_categories = 7
+	}
+
+	ai_weight = {
+		factor = 1
+	}
+}
