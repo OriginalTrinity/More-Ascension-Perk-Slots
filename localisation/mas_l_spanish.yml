@@ -1,0 +1,30 @@
+﻿# Translated by ar1810
+# Version: 1.0.0
+l_spanish:
+    tradition_ascension:0 "Ascención"
+    tradition_ascension_desc:0 "§WElije sabiamente antes de elegir tu destino. Recuerda, el progreso tiene un precio."
+    tr_ascension_finish_effect:0 "§E$TRADITIONS_FINISH$:§W\nAdoptar todos los $tr_ascension_adopt$ te otorgará acceso a todos los espacios de ascenso."
+
+    tr_ascension_adopt:0 "Tradiciones del Camino de la Ascensión"
+    tr_ascension_adopt_desc:0 "$tradition_ascension_desc$\n\n$tr_ascension_adopt_effect$\n\n$tr_ascension_adopt_finish_effect$"
+    tr_ascension_adopt_effect:0 "§E$TRADITIONS_ADOPT$:§!\n§HDesbloquea la opción de investigación: §M$tech_ascension_theory$§!"
+    tr_ascension_adopt_finish_effect:0 "§E$TRADITIONS_FINISH$:§W\nAdoptar todos los $tr_ascension_adopt$ te otorgará acceso a todos los espacios de ascenso."
+    
+    tr_ascension_1:0 "Fuerza Individual"
+    tr_ascension_1_desc:0 "Desbloquea §Y1§! espacio adicional de ascención.\n£unity£ §YProducción de unidad §!por £job_administrator£ §YTrabajos de gobernantes §!incrementado un §G5%§!."
+    tr_ascension_1_delayed:0 "Cada individuo tiene el potencial para crear sistemas solares enteros, o destruirlos..."
+    tr_ascension_2:0 "Mentes unidas"
+    tr_ascension_2_desc:0 "Desbloquea §Y1§! espacio adicional de ascención.\n£stability£ §YEstabilidad §!incrementada un §G15% §!en todos nuestros planetas."
+    tr_ascension_2_delayed:0 "Un imperio, una mente, una visión. Nuestro destino yace en nuestras manos. Elige sabiamente."
+    tr_ascension_3:0 "Estudios antiguos"
+    tr_ascension_3_desc:0 "Desbloquea §Y2§! espacios adicionales de ascención.\n§G100 §Y£minor_artifacts£ Artefactos menores §Wserán añadidos a tu almacén."
+    tr_ascension_3_delayed:0 "Comprender el pasado es fundamental si queremos evitar volver a cometer los mismos errores.."
+    tr_ascension_4:0 "El culto de las sombras"
+    tr_ascension_4_desc:0 "Desbloquea §Y2§! espacios adicionales de ascención.\n§YCapacidad de edictos §!incrementada un §G1§!.\n§YCoste de edictos §!reducido un §G10%§!."
+    tr_ascension_4_delayed:0 "Ni vekigu la lordon de la abismo! Aligxu al ni."
+    tr_ascension_4_hive:0 "Redes neuronales fortalecidas"
+    tr_ascension_4_hive_desc:0 "Desbloquea §Y2§! espacios adicionales de ascención.\n£army_power£ §YDaño del ejército §!incrementado un §G10%§!.\n§YExtensíon de imperio §!reducida un §G5%§!."
+    tr_ascension_4_hive_delayed:0 "Unidos estamos, divididos caemos."
+    tr_ascension_5:0 "El ojo que todo lo ve"
+    tr_ascension_5_desc:0 "Desbloquea §Y2§! espacios adicionales de ascención.\n§YDescifrado: §G+1§!\n§YNivel de Inteligencia Base: §G+5§!"
+    tr_ascension_5_delayed:0 "Siempre es bueno saber lo que tus vecinos están haciendo."
