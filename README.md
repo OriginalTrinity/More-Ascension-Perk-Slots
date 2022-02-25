@@ -1,3 +1,4 @@
-# More Ascension Perk Slots - Dev branch
-
-This branch will contain any new commits pending for approval to be merged into master.
+# More Ascension Perk Slots
+ 
+This Github Repo is used for contributions and bug reporting.
+If you're looking for more details please visit the Steam workshop page.
