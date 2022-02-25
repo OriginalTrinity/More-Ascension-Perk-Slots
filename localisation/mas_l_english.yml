@@ -1,30 +1,38 @@
 ﻿# Modified by Trinity
 # Version: 2.0.0
 l_english:
-    tradition_ascension:0 "Path of Ascension"
-    tradition_ascension_desc:0 "§WChoose wisely before you manifest your destiny. Remember, progress comes at a price."
-    tr_ascension_finish_effect:0 "§E$TRADITIONS_FINISH$:§W\nAdopting all $tr_ascension_adopt$ will grant you access to all Ascension slots."
+    tradition_ascension: "Path of Ascension"
+    tradition_ascension_desc: "§WChoose wisely before you manifest your destiny. Remember, progress comes at a price."
 
-    tr_ascension_adopt:0 "Path of Ascension Traditions"
-    tr_ascension_adopt_desc:0 "$tradition_ascension_desc$\n\n$tr_ascension_adopt_effect$\n\n$tr_ascension_adopt_finish_effect$"
-    tr_ascension_adopt_effect:0 "§E$TRADITIONS_ADOPT$:§!\n§HUnlocks research option: §M$tech_ascension_theory$§!"
-    tr_ascension_adopt_finish_effect:0 "§E$TRADITIONS_FINISH$:§W\nAdopting all $tr_ascension_adopt$ will grant you access to all Ascension slots."
-    
-    tr_ascension_1:0 "Individual Strength"
-    tr_ascension_1_desc:0 "Unlocks §Y1§! additional Ascension Slot.\n£unity£ §YUnity production §!by £job_administrator£ §YRuler jobs §!increased by §G5%§!."
-    tr_ascension_1_delayed:0 "Each Individual has the potential power to create whole star systems, or destroy them..."
-    tr_ascension_2:0 "Unified Minds"
-    tr_ascension_2_desc:0 "Unlocks §Y1§! additional Ascension Slot.\n£stability£ §YStability §!increased by §G15% §!on all of our planets."
-    tr_ascension_2_delayed:0 "One Empire, one vision, one mind. Our destiny lies in your hands. Choose wisely."
-    tr_ascension_3:0 "Ancient Studies"
-    tr_ascension_3_desc:0 "Unlocks §Y2§! additional Ascension Slot.\n§G100 §Y£minor_artifacts£ Minor Artifacts §Wwill be added to your stockpile."
-    tr_ascension_3_delayed:0 "Understanding the past is crucial if we want to avoid making the same mistakes again."
-    tr_ascension_4:0 "The Shadow Cult"
-    tr_ascension_4_desc:0 "Unlocks §Y2§! additional Ascension Slot.\n§YEdict capacity §!increased by §G1§!.\n§YEdict cost §!reduced by §G10%§!."
-    tr_ascension_4_delayed:0 "Ni vekigu la lordon de la abismo! Aligxu al ni."
-    tr_ascension_4_hive:0 "Strengthened Neural Networks"
-    tr_ascension_4_hive_desc:0 "Unlocks §Y2§! additional Ascension Slot.\n£army_power£ §YArmy damage §!increased by §G10%§!.\n§YEmpire Sprawl §!reduced by §G5%§!."
-    tr_ascension_4_hive_delayed:0 "United we stand, divided we fall."
-    tr_ascension_5:0 "The All-Seeing Eye"
-    tr_ascension_5_desc:0 "Unlocks §Y2§! additional Ascension Slot.\n§YCodebreaking: §G+1§!\n§YBase Intel Level: §G+5§!"
-    tr_ascension_5_delayed:0 "It's always good to know what your neighbours are up to."
+    tr_ascension_adopt: "Path of Ascension Traditions"
+    tr_ascension_adopt_desc: "§HUnlocks research option: §M$tech_ascension_theory$§!"
+    tr_ascension_finish_desc: "§TAscension Perks unlocked: §G+4§!"
+
+    tr_ascension_1: "Individual Strength"
+    tr_ascension_1_desc: "£pop_cat_ruler£ §Y$pop_cat_ruler$ £unity£ Unity §!output: §G+5%\n§TAscension Perks unlocked: §G+1§!"
+    tr_ascension_1_delayed: "Each Individual has the potential power to create whole star systems, or destroy them..."
+
+    tr_ascension_1_hive: "Autonomous Behavior Patterns"
+    tr_ascension_1_hive_desc: "£pop_cat_complex_drone£ §Y$pop_cat_complex_drone$ £unity£ Unity §!output: §G+5%\n§TAscension Perks unlocked: §G+1§!"
+    tr_ascension_1_hive_delayed: "Automating certain drone tasks greatly increases our effiency, just don't take this too far..."
+
+
+    tr_ascension_2: "Unified Minds"
+    tr_ascension_2_desc: "£stability£ §YStability §!is increased by §G5% §!on all our planets.\n§TAscension Perks unlocked: §G+1§!"
+    tr_ascension_2_delayed: "One Empire, one vision, one mind. Our destiny lies in your hands. Choose wisely."
+
+    tr_ascension_3: "Ancient Studies"
+    tr_ascension_3_desc: "100 §Y£minor_artifacts£ Minor Artifacts §!will be added to your stockpile.\n§TAscension Perks unlocked: §G+2§!"
+    tr_ascension_3_delayed: "Understanding the past is crucial if we want to avoid making the same mistakes again."
+
+    tr_ascension_4: "The Shadow Cult"
+    tr_ascension_4_desc: "§Y$EMPIRE_SIZE$ §!from £pops£ §Y$POPS$§!: §G-5%\n§YEdict Funds§!: §G+30\n§TAscension Perks unlocked: §G+2§!"
+    tr_ascension_4_delayed: "Ni vekigu la lordon de la abismo! Aligxu al ni."
+
+    tr_ascension_4_hive: "Strengthened Neural Networks"
+    tr_ascension_4_hive_desc: "§Y$EMPIRE_SIZE$ §!from £pops£ §Y$POPS$§!: §G-5%\n§YEdict Funds§!: §G+30\n§TAscension Perks unlocked: §G+2§!"
+    tr_ascension_4_hive_delayed: "United we stand, divided we fall."
+
+    tr_ascension_5: "The All-Seeing Eye"
+    tr_ascension_5_desc: "Base Intel level: §G+5\n§!Codebreaking: §G+1\n§TAscension Perks unlocked: §G+2§!"
+    tr_ascension_5_delayed: "It's always good to know what your neighbours are up to."

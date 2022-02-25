@@ -8,6 +8,10 @@ spriteTypes = {
 		textureFile = "gfx/interface/icons/traditions/tradition_ascension_1.dds"
 	}
 	spriteType = {
+		name = "GFX_tr_ascension_1_hive"
+		textureFile = "gfx/interface/icons/traditions/tradition_ascension_1_alternative.dds"
+	}
+	spriteType = {
 		name = "GFX_tr_ascension_2"
 		textureFile = "gfx/interface/icons/traditions/tradition_ascension_2.dds"
 	}

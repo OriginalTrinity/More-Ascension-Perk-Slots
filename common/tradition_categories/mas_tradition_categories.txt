@@ -13,7 +13,7 @@ tradition_ascension = {
 	}
 
 	potential = {
-		num_tradition_categories = 7
+		num_tradition_categories >= 7
 	}
 
 	ai_weight = {

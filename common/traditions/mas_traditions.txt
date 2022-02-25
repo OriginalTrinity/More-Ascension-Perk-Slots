@@ -21,6 +21,25 @@ tr_ascension_1 = {
 		ascension_perks_add = 1
 		planet_jobs_ruler_unity_produces_mult = 0.05
 	}
+	tradition_swap = {
+		name = tr_ascension_1_hive
+		inherit_effects = no
+		inherit_icon = no
+		inherit_name = no
+		trigger = {
+			OR = {
+				is_hive_empire = yes
+				is_machine_empire = yes
+			}
+		}
+		modifier = {
+			ascension_perks_add = 1
+			planet_jobs_complex_drone_unity_produces_mult = 0.05
+		}
+		weight = {
+			factor = 10
+		}
+	}
 	ai_weight = {
 		factor = 10
 	}
@@ -59,8 +78,8 @@ tr_ascension_4 = {
 	}
 	modifier = {
 		ascension_perks_add = 2
-		edicts_cost_mult = -0.1
-		country_edict_cap_add = 1
+		empire_size_pops_mult = -0.05
+		country_edict_fund_add = 30
 	}
 	tradition_swap = {
 		name = tr_ascension_4_hive
@@ -76,11 +95,14 @@ tr_ascension_4 = {
 		modifier = {
 			ascension_perks_add = 2
 			empire_size_pops_mult = -0.05
-			army_attack_damage_mult = 0.1
+			country_edict_fund_add = 30
 		}
 		weight = {
-			factor = 1
+			factor = 10
 		}
+	}
+	ai_weight = {
+		factor = 10
 	}
 }
 tr_ascension_5 = {
