@@ -1,0 +1,38 @@
+﻿# Modified by Trinity
+# Version: 2.0.0
+l_japanese:
+    tradition_ascension: "昇華への道"
+    tradition_ascension_desc: "§W運命は賢く選びたまえ。心せよ、進歩は代価を必要とする。"
+
+    tr_ascension_adopt: "昇華への道の伝統"
+    tr_ascension_adopt_desc: "§H研究選択肢をアンロック： §M$tech_ascension_theory$§!"
+    tr_ascension_finish_desc: "§Tアセンションパークをアンロック： §G+4§!"
+
+    tr_ascension_1: "個別の力"
+    tr_ascension_1_desc: "£pop_cat_ruler£ §Y$pop_cat_ruler$ £unity£ 統合力§!生産量： §G+5%\n§Tアセンションパークをアンロック： §G+1§!"
+    tr_ascension_1_delayed: "個々人の持つ力こそ、星系そのものを形作り、また破壊する威力を秘めているのだ……"
+
+    tr_ascension_1_hive: "自律行動パターン"
+    tr_ascension_1_hive_desc: "£pop_cat_complex_drone£ §Y$pop_cat_complex_drone$ £unity£ 統合力§!生産量： §G+5%\n§Tアセンションパークをアンロック： §G+1§!"
+    tr_ascension_1_hive_delayed: "ドローンの作業の一部を自律化することで効率を飛躍的に高めることができるが、やりすぎには注意が必要だ……"
+
+
+    tr_ascension_2: "心の統合"
+    tr_ascension_2_desc: "すべての植民地で £stability£ §Y安定度§!が§G5%§!上昇する。\n§Tアセンションパークをアンロック： §G+1§!"
+    tr_ascension_2_delayed: "一つの帝国、一つの理想、一つの心。運命は我らの手の内にある。賢明な選択を。"
+
+    tr_ascension_3: "古代帝国の研究"
+    tr_ascension_3_desc: "§Y£minor_artifacts£ 出土品§!を100獲得する。\n§Tアセンションパークをアンロック： §G+2§!"
+    tr_ascension_3_delayed: "過去を理解することこそ重要なのだ。同じ過ちを繰り返さぬために。"
+
+    tr_ascension_4: "影の信仰"
+    tr_ascension_4_desc: "£pops£ §Y$POP$§!からの§Y$EMPIRE_SIZE$§!： §G-5%\n§Y布告資金§!： §G+30\n§Tアセンションパークをアンロック： §G+2§!"
+    tr_ascension_4_delayed: "Ni vekigu la lordon de la abismo! Aligxu al ni.(深淵の主を目覚めさせん！ 我らに加わるべし。)"
+
+    tr_ascension_4_hive: "自然ネットワークの強化"
+    tr_ascension_4_hive_desc: £pops£ §Y$POP$§!からの§Y$EMPIRE_SIZE$§!： §G-5%\n§Y布告資金§!： §G+30\n§Tアセンションパークをアンロック： §G+2§!"
+    tr_ascension_4_hive_delayed: "団結が我らを生かし、分断が我らを滅ぼす。"
+
+    tr_ascension_5: "すべてを見通す眼"
+    tr_ascension_5_desc: "基本諜報レベル： §G+5\n§!暗号解読： §G+1\n§Tアセンションパークをアンロック： §G+2§!"
+    tr_ascension_5_delayed: "隣人が何をしようとしているか知っているのは、常に良いことだ。"
