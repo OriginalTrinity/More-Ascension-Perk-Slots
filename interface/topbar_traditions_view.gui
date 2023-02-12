@@ -10,6 +10,9 @@
 @two_layer_tree_h = 25
 @three_layer_tree_h = 0
 
+@dynamic_extra = 0.8
+@dynamic_extra_max = 260
+
 guiTypes = {
 
 	################################################################
@@ -1248,9 +1251,9 @@ guiTypes = {
 
 	### 1 to 2, 1 to 2 ###
 
-	    #####	 #####
-	    # 1 #    # 2 #
-	    #####    #####
+		#####	 #####
+		# 1 #    # 2 #
+		#####    #####
 
 	#####   #####   #####
 	# 3 #   # 4 #   # 5 #
@@ -1309,48 +1312,48 @@ guiTypes = {
 		# 4 #    # 5 #
 		#####    #####
 
-		containerWindowType = {
-			name = "tree_21_21"
-			position = { x = 0 y = @two_layer_tree_h }
-	
-			iconType = {
-				name = "arrow_1"
-				spriteType = "GFX_arrow_merge"
-				position = { x = 77 y = 100 }
-			}
-	
-			iconType = {
-				name = "arrow_2"
-				spriteType = "GFX_arrow_merge"
-				position = { x = 147 y = 100 }
-			}
-	
-			containerWindowType = {
-				name = "tree_21_21_tradition_1"
-				position = { x = 61 y = 55 }
-			}
-	
-			containerWindowType = {
-				name = "tree_21_21_tradition_2"
-				position = { x = 131 y = 55 }
-			}
-	
-			containerWindowType = {
-				name = "tree_21_21_tradition_3"
-				position = { x = 201 y = 55 }
-			}
-	
-			containerWindowType = {
-				name = "tree_21_21_tradition_4"
-				position = { x = 96 y = 125 }
-			}
-	
-			containerWindowType = {
-				name = "tree_21_21_tradition_5"
-				position = { x = 166 y = 125 }
-			}
-			# Don't put any container windows above this comment that shouldn't contain a tradition.
+	containerWindowType = {
+		name = "tree_21_21"
+		position = { x = 0 y = @two_layer_tree_h }
+
+		iconType = {
+			name = "arrow_1"
+			spriteType = "GFX_arrow_merge"
+			position = { x = 77 y = 100 }
 		}
+
+		iconType = {
+			name = "arrow_2"
+			spriteType = "GFX_arrow_merge"
+			position = { x = 147 y = 100 }
+		}
+
+		containerWindowType = {
+			name = "tree_21_21_tradition_1"
+			position = { x = 61 y = 55 }
+		}
+
+		containerWindowType = {
+			name = "tree_21_21_tradition_2"
+			position = { x = 131 y = 55 }
+		}
+
+		containerWindowType = {
+			name = "tree_21_21_tradition_3"
+			position = { x = 201 y = 55 }
+		}
+
+		containerWindowType = {
+			name = "tree_21_21_tradition_4"
+			position = { x = 96 y = 125 }
+		}
+
+		containerWindowType = {
+			name = "tree_21_21_tradition_5"
+			position = { x = 166 y = 125 }
+		}
+		# Don't put any container windows above this comment that shouldn't contain a tradition.
+	}
 
 	### 1 to 1, 1 to 1 to 1 ###
 
@@ -1731,8 +1734,9 @@ guiTypes = {
 
 	containerWindowType = {
 		name = "tradition_category_selection_dialog"
-		position = { x = -600 y = -300 }
-		size = { width = 1272 height = 600 }
+		size = { width = 1272 height = 680 }
+		dynamic_extra_height = @dynamic_extra
+		dynamic_extra_height_max = @dynamic_extra_max
 		orientation = center
 		origo = center
 		moveable = yes
@@ -1745,6 +1749,8 @@ guiTypes = {
 		containerWindowType = {
 			name = "thin_edge"
 			size = { width = 1272 height = 679 }
+			dynamic_extra_height = @dynamic_extra
+			dynamic_extra_height_max = @dynamic_extra_max
 			background = {
 				name = "selection_dialog_bg"
 				quadTextureSprite = "GFX_plain_green_frame_tile"
@@ -1788,7 +1794,7 @@ guiTypes = {
 		buttonType = {
 			name = "close"
 			quadTextureSprite = "GFX_close"
-			position = { x = -45 y = 16 }
+			position = { x = -45 y = 7 }
 			orientation = "UPPER_RIGHT"
 			shortCut = "ESCAPE"
 			clicksound = "back_click"
@@ -1797,7 +1803,9 @@ guiTypes = {
 		containerWindowType = {
 			name = "tradition_category_gridbox_container"
 			position = { x = @entries_column1 y = @entries_row1_y }
-			size = { width = 1260 height = 535 }
+			size = { width = 1262 height = 606 }
+			dynamic_extra_height = @dynamic_extra
+			dynamic_extra_height_max = @dynamic_extra_max
 			verticalScrollbar = "right_vertical_slider"
 
 			background = {
@@ -1807,7 +1815,7 @@ guiTypes = {
 
 			gridBoxType = {
 				name = "tradition_category_gridbox"
-				size = { width = 1250 height = 525 }
+				size = { width = 1250 height = 615 }
 				slotSize = { width = 314 height = 266 }
 				max_slots_horizontal = 4
 				format = "UPPER_LEFT"
